@@ -38,6 +38,5 @@ bool dfplayer_set_src(dfplayer_t *self, dfplayer_src_t src);
 bool dfplayer_set_mode(dfplayer_t *self, dfplayer_mode_t mode);
 bool dfplayer_set_volume(dfplayer_t *self, uint16_t volume);
 bool dfplayer_select_track(dfplayer_t *self, uint16_t track);
-bool dfplayer_reset(dfplayer_t *self);
 
 #endif // INC_DFPLAYER_H_
