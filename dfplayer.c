@@ -62,7 +62,7 @@ bool dfplayer_set_volume(dfplayer_t *self, uint16_t volume) {
         volume = 30;
     }
 
-    return dfplayer_send_command(self, DFPLAYER_CMD_SET_MODE, volume);
+    return dfplayer_send_command(self, DFPLAYER_CMD_SET_VOL, volume);
 }
 
 bool dfplayer_select_track(dfplayer_t *self, uint16_t track) {
